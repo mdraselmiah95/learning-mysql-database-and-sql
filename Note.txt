@@ -55,5 +55,14 @@ SELECT column1, column2, ...
 FROM table_name
 ORDER BY column1, column2, ... ASC|DESC;
 
+TODO: Arithmetic Operator
++, -, *, /, %
 
-Video=> 1:52 the golden
+TODO: Comparison Operator
+=, !=, >, <=, >, >=, BETWEEN
+
+TODO: Logical Operator
+AND, OR, IN, NOT, Like 
+
+
+Video=> 1:58 The Good and the Bad are always friend
