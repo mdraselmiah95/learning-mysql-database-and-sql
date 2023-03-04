@@ -1,0 +1,8 @@
+# Numerical data Type:
+1. SMALLINT
+2. INT
+3. BIGINT
+
+4. FLOAT
+5. DOUBLE(M,D)
+6. DECIMAL(M,D)
