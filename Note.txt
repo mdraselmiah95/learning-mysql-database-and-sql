@@ -1,4 +1,4 @@
-# Numerical data Type:
+* Numerical data Type:
 1. SMALLINT
 2. INT
 3. BIGINT
@@ -7,12 +7,53 @@
 5. DOUBLE(M,D)
 6. DECIMAL(M,D)
 
-# Character Type:
+* Character Type:
 1. CHAR(M)
 2. VARCHAR(M)
 3. TEXT
 
-# Date and Time data Type:
+* Date and Time data Type:
 1. YEAR(YYYY)
 2. DATE(YYYY-MM-DD)
 3. TIME(HH:MM:SS)
+
+* Some other data Type:
+1. BLOB =>binary large object
+2. Logical
+
+
+TODO: MySQL CREATE TABLE Statement:
+CREATE TABLE table_name (
+    column1 datatype,
+    column2 datatype,
+    column3 datatype,
+   ....
+);
+CREATE TABLE Persons (
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+
+
+TODO: The SQL SELECT Statement:
+SELECT column1, column2, ...
+FROM table_name;
+
+SELECT * FROM table_name;
+
+TODO: SELECT DISTINCT Statement 
+The SELECT DISTINCT statement is used to return only distinct (different) values.
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+
+TODO: ORDER BY Keyword
+The ORDER BY keyword is used to sort the result-set in ascending or descending order.
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+
+
+Video=> 1:52 the golden
