@@ -1,5 +1,7 @@
 # Learning MySQL database & SQL
 
+![App Screenshot](https://i.ibb.co/hmw4Mk3/sql-and-mysql.jpg)
+
 # Relational Database
 
 ## 1. introduction to Database
