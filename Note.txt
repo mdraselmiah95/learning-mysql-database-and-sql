@@ -6,3 +6,13 @@
 4. FLOAT
 5. DOUBLE(M,D)
 6. DECIMAL(M,D)
+
+# Character Type:
+1. CHAR(M)
+2. VARCHAR(M)
+3. TEXT
+
+# Date and Time data Type:
+1. YEAR(YYYY)
+2. DATE(YYYY-MM-DD)
+3. TIME(HH:MM:SS)
