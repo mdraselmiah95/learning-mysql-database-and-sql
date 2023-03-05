@@ -74,5 +74,23 @@ NOT	    (Displays a record if the condition(s) is NOT TRUE)
 OR	    (TRUE if any of the conditions separated by OR is TRUE)	
 SOME	(TRUE if any of the subquery values meet the condition)
 
+Examples:
 
-Video=> 1:58 The Good and the Bad are always friend
+SELECT * 
+FROM students_details
+WHERE City="Dhaka"
+		OR
+        City="Sylhet"
+        OR
+        City="Khulna"
+
+SELECT *
+FROM students_details
+WHERE City IN ('Sylhet','Dhaka','Jessore');
+
+SELECT *
+FROM students_details
+WHERE City NOT IN ('Sylhet','Dhaka','Jessore');
+
+
+Video=> 02:08 The Good and gone will be
