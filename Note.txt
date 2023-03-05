@@ -74,7 +74,7 @@ NOT	    (Displays a record if the condition(s) is NOT TRUE)
 OR	    (TRUE if any of the conditions separated by OR is TRUE)	
 SOME	(TRUE if any of the subquery values meet the condition)
 
-Examples:
+TODO: Logical Operator AND, OR, IN, NOT, LIKE Examples:
 
 SELECT * 
 FROM students_details
@@ -92,5 +92,19 @@ SELECT *
 FROM students_details
 WHERE City NOT IN ('Sylhet','Dhaka','Jessore');
 
+SELECT * 
+FROM students_details
+WHERE Name LIKE 'S%';
+
+SELECT * 
+FROM students_details
+WHERE Name LIKE '_a%';
+
+TODO: As Keyword For Custom Name Examples:
+
+SELECT Roll AS ID,Name AS 'First Name'
+FROM students_details
+
+TODO: Constraint, Auto_Increment Examples:
 
 Video=> 02:08 The Good and gone will be
