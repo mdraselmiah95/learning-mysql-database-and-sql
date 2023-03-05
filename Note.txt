@@ -136,5 +136,14 @@ SELECT GREATEST(3, 12, 34, 8, 25);
 
 SELECT LEAST(3, 12, 34, 8, 25);
 
-
+SELECT POWER(2,3);
+SELECT TRUNCATE(10.3554,2)
+SELECT TRUNCATE(LOG(2),2)
 Video=> 02:08 The Good
+
+TODO: An aggregate function performs a calculation on a set of values, and returns a single value.
+AVG – calculates the average of a set of values.
+COUNT – counts rows in a specified table or view.
+MIN – gets the minimum value in a set of values.
+MAX – gets the maximum value in a set of values.
+SUM – calculates the sum of values.
