@@ -106,5 +106,20 @@ SELECT Roll AS ID,Name AS 'First Name'
 FROM students_details
 
 TODO: Constraint, Auto_Increment Examples:
+CREATE TABLE teacher
+(
+	ID int NOT NULL AUTO_INCREMENT,
+    Name varChar(15) NOT NULL,
+    Salary double(10,2)
+    PRIMARY KEY(ID)
+)
 
-Video=> 02:08 The Good and gone will be
+TODO: Update Statement:
+UPDATE teacher
+SET Salary=31000
+WHERE ID=107
+
+UPDATE teacher SET Name="Md Kisar Rahmia" WHERE ID=107;
+
+
+Video=> 02:08 The Good is better
