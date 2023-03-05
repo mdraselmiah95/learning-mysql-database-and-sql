@@ -121,5 +121,20 @@ WHERE ID=107
 
 UPDATE teacher SET Name="Md Kisar Rahmia" WHERE ID=107;
 
+UPDATE teacher SET Salary = Salary + 5000 WHERE Salary > 15000;
 
-Video=> 02:08 The Good is better
+SELECT UPPER(City) AS City_NEW_NAME
+FROM students_details;
+
+TODO: Function: UPPER(), LOWER(), CONCAT(), POW(), GREATEST(), LEAST(), LOG(), LOG10(), EXP(), RAND()
+SELECT CONCAT('SQL', ' is', ' fun!');
+
+SELECT CONCAT(Name," Is ",Age,"Years old")
+FROM students_details
+
+SELECT GREATEST(3, 12, 34, 8, 25);
+
+SELECT LEAST(3, 12, 34, 8, 25);
+
+
+Video=> 02:08 The Good
